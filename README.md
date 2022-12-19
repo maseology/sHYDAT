@@ -5,6 +5,12 @@ R-***Sh***iny interface to the Water Survey of Canada ***HYDAT*** database
 - hydrograph previewer *(at the moment: Flow only)*
 - database .csv downloader
 
+<br>
+
+![](fig/screenshot1.png)
+
+<br>
+
 Formerly [*sHydrologyMap*](https://github.com/maseology/sHydrology) but stripped down to the essentials. Now handles the [***tidyhydata*** package](https://cran.r-project.org/web/packages/tidyhydat/vignettes/tidyhydat_an_introduction.html) by Sam Albers. 
 
 sHydrologyMap in it's full capacity has been moved to: 

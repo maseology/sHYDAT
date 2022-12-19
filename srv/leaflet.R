@@ -9,6 +9,7 @@ filteredData <- reactive({
 
 output$map <- renderLeaflet({
   leaflet(filteredData()) %>%
+    addTiles(attribution = '<a href="https://github.com/maseology/sHYDAT" target="_blank" rel="noopener noreferrer"><b>See on GitHub</b></a>') %>%
     addTiles() %>%
     addMarkers(~LONGITUDE,~LATITUDE,
                layerId = ~STATION_NUMBER,
